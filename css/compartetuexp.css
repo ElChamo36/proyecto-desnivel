@@ -1,0 +1,32 @@
+.secmontaña{
+    display:flex
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    
+}
+
+.secmontaña form{
+    display: flex;
+    flex-flow: row;
+    max-height: min-content;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.secmontaña form select{
+    margin-left: 10%;
+    height: min-content;
+}
+
+.secmontaña form textarea{
+    width: fit-content;
+}
+
+.submit2{
+    margin-left: 10%;
+    height: fit-content;
+    align-self: start;
+    font-size: 20px;
+}

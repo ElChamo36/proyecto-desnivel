@@ -1,0 +1,32 @@
+header nav{
+    background-color: darkslategray;
+}
+
+header nav a{
+    color: tomato;
+}
+
+.mainentrenamiento{
+    width: 98vw;
+    display: flex;
+}
+
+
+
+.mainequipo{
+    width: 98vw;
+    display: flex;
+}
+
+
+
+.mainconceptos{
+    width: 98vw;
+    display: flex;
+}
+
+
+.maincerros{
+    width: 98vw;
+    display: flex;
+}

@@ -4,13 +4,13 @@ body{
 .mainprogreso{
     grid-area: main;
     width: 100vw;
-    height: 85vh;
-    background-image: url(../css/fotos/mountainterminado.png);
+    height: 87vh;
+    background-image: url(../css/fotos/circuitomontaña.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin: 3% auto 3% auto;
-    border-radius: 10px;
+    border-radius:15px;
     
 }
 
@@ -21,19 +21,24 @@ body{
     margin: 0% auto 0% auto;
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    margin-left: 20%;
+    margin-bottom: 15%;
 }
 
 .niveles a{
-    width: 50%;
+    width: fit-content;
     height: 65%;
     text-decoration: none;
+    background-color: gold;
+    border: 2px solid black;
     color: black;
     font-size: 1.5em;
     font-weight: bold;
     margin-top: 4.2%;
-    text-align: center;
+    padding: 0% 2% 0% 2%;
+    text-align: right;
     border-radius: 15%;
     transition: .4s;
     

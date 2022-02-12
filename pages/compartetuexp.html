@@ -29,29 +29,40 @@
         </header>
 
 
-        <main>
+        <main class="mainmontañismo">
             <section class="secmontaña">
                 <form action="" method="post">
 
-                    <textarea name="" id="" cols="30" rows="7" placeholder="Escribe tus cumbres"></textarea>
-                    <select name="" id="">
-                        <option value="argentina">Provincia</option>
-                        <option value="mendoza">Mendoza</option>
-                        <option value="cordoba">Córdoba</option>
-                        <option value="sanjuan">San Juan</option>
-                        <option value="bsas">Buenos Aires</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="altitud">Desnivel en tu vida</option>
-                        <option value="0-1500"></option>
-                        <option value="1500-3000">1500 msnm-3000 msnm</option>
-                        <option value="3000-4500">3000 msnm-4500 msnm</option>
-                        <option value="4500-6000">4500 msnm-6000 msnm</option>
-                        <option value="masde6000">+ de 6000 msnm</option>
-                    </select>
+                    <div class="divselect">
+                        <select name="" id="">
+                            <option value="argentina">Provincia</option>
+                            <option value="mendoza">Mendoza</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="sanjuan">San Juan</option>
+                            <option value="bsas">Buenos Aires</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="altitud">Desnivel en tu vida</option>
+                            <option value="0-1500">0msnm-1500msnm </option>
+                            <option value="1500-3000">1500 msnm-3000 msnm</option>
+                            <option value="3000-4500">3000 msnm-4500 msnm</option>
+                            <option value="4500-6000">4500 msnm-6000 msnm</option>
+                            <option value="masde6000">+ de 6000 msnm</option>
+                        </select>
+                    </div>
+                    
+                    <div class="divinput">
+                        <Label>Escribe el nombre del cerro o ruta</Label>
+                        <input type="text" name="" id="">
+                        <label for="">Comparte tus fotos</label>
+                        <input type="image">
+                    </div>
+                    
+                    <textarea name="" id="" cols="60" rows="5" placeholder="Describe la travesía"></textarea>
 
                     <input class="submit2" type="submit">
                 </form  >
+                <button class="creaTuUsuario"><a href="../pages/pagdecontactos.html">Primero crea tu usuario</a></button>
             </section>
 
         </main>
